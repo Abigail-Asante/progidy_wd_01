@@ -1,0 +1,96 @@
+
+
+#header-bg{
+    background-image: url(../Images/bride_love.jpg);
+    background-image: linear-gradient rgba(15, 11, 11, 0.705);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 2rem 10rem;
+    margin: auto;
+}
+
+.nav-links{
+    display: flex;
+    background-color: rgba(15, 11, 11, 0.705);
+}
+
+#logo{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+    font-weight: bolder;
+}
+#logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-items{
+    display: flex;
+   
+}
+
+#ul-list{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0 15rem;
+   
+}
+    
+.nav-item{
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+}
+
+
+.head-text{
+    margin-top: 8rem;
+    background-color: rgba(39, 34, 34, 0.384);
+}
+.head-text h3{
+    color: white;
+}
+
+.head-text h1{
+    color: rgb(248, 96, 8);
+    font-size: 40px;
+}
+
+.head-text p{
+    color: white;
+    font-size: 20px;
+}
+
+.btn{
+   border-radius: 30px;
+   background-color: rgb(248, 96, 8);
+   padding: 15px 15px; 
+}
+.btn a{
+    color: black;
+    text-decoration: none;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+    
+}
+.item1{
+    grid-column: span 2;
+}
+.item2, .item3, .item4, .item5 {
+    grid-column: span 1;
+}
+.grid-container img {
+    width: 100%;
+    height: auto%;
+    display: block;
+}    
